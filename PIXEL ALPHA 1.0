@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel & HALOX Estil</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e6f7f7;
+      color: #222;
+    }
+    header {
+      background-color: #3eb489;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    section h2 {
+      color: #3eb489;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    section p {
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .logo {
+      width: 150px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background-color: #3eb489;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #2d8d68;
+    }
+    footer {
+      background-color: #3eb489;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pixel & HALOX Estil</h1>
+    <p>Tu billetera digital y el nuevo mundo de batalla</p>
+  </header>
+
+  <section>
+    <img src="pixel-logo.png" alt="Logo Pixel" class="logo">
+    <h2>Pixel - Billetera Digital</h2>
+    <p>
+      Con Pixel podrás pagar servicios (luz, agua, internet), recargar celular, comprar diamantes para juegos como HALOX Estil, Free Fire y Arena Go.
+      Fácil, rápido y seguro desde tu móvil.
+    </p>
+    <a href="#" class="btn">Descargar Pixel</a>
+  </section>
+
+  <section>
+    <img src="halox-logo.png" alt="Logo HALOX Estil" class="logo">
+    <h2>HALOX Estil</h2>
+    <p>
+      El nuevo juego de batalla con mapas épicos como Isla Misteriosa y Aqua Fire Royal.
+      Compra skins, recarga diamantes y vive la experiencia de guerra definitiva.
+    </p>
+    <a href="#" class="btn">Descargar HALOX Estil</a>
+  </section>
+
+  <footer>
+    <p>Creado por Femor Steel © 2025</p>
+  </footer>
+</body>
+</html>
