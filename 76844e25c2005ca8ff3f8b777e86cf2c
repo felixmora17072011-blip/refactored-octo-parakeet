@@ -1,0 +1,5 @@
+/* ProjectName:Task ProjectVersion: 39 | OfflinePackageVersion:39 */
+@font-face {
+  font-family: DINCond-Black;
+  src: url('../fonts/DINCond-Black.otf');
+}

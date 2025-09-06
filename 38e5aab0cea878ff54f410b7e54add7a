@@ -1,0 +1,70 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><link rel="icon" href="favicon.ico"><link rel="dns-prefetch" href="https://static.wshareit.com"><title>Task Center</title><script>;try {
+        window.__FE_PAGE_START_TIME__ = new Date().getTime();
+        if (window["shareitBridge"]) {
+          function getUrlParam(name) {
+            var u = window.location.search,
+              reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"),
+              r = u.substr(u.indexOf("?") + 1).match(reg);
+            return r != null ? r[2] : "";
+          }
+          window["shareitBridge"].syncInvoke("web", "handleStatsEvent", JSON.stringify({
+            "eventId": "show_ve",
+            "pve_cur": "/fe-IncentiveMvpTask/0" + "/x",
+            "extras": JSON.stringify({
+              type: "offline",
+              packageVersion: "39",
+              projectVersion: "39",
+              buildDate: "0620"
+            }),
+            "portal": getUrlParam('portal'),
+            "url": window.location.href
+          }))
+        }
+      } catch (e) {
+        console.log(e)
+      }</script><link href="css/chunk-vendors.cdd1fdf7.css" rel="preload" as="style"><link href="css/index.44add72a.css" rel="preload" as="style"><link href="js/chunk-vendors.c2fad58e.js" rel="preload" as="script"><link href="js/index.6ab9cff1.js" rel="preload" as="script"><link href="css/chunk-vendors.cdd1fdf7.css" rel="stylesheet"><link href="css/index.44add72a.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but Task Center doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="__MASK_BOX__" style="position: fixed; z-index: 9999999; background: linear-gradient(180deg, #ffe2c2 0%, #fff2e9 100%); left: 0; right: 0; bottom: 0; top: 0; transition: all 0.8s;"><style>@keyframes css-ceqgml-ant-skeleton-loading {
+            0% {
+              background-position: 100% 50%;
+            }
+            100% {
+              background-position: 0 50%;
+            }
+          }
+          .mt_box {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+          }
+          .mt {
+            background: linear-gradient(90deg, rgba(42, 46, 54, 0.06) 25%, rgba(42, 46, 54, 0.15) 37%, rgba(42, 46, 54, 0.06) 63%);
+            background-size: 400% 100%;
+            animation-name: css-ceqgml-ant-skeleton-loading;
+            animation-duration: 1.4s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+
+            width: 94%;
+            /* height: 200px; */
+            margin: 0 auto 20px;
+            border-radius: 10px;
+          }
+          .m_t1 {
+            margin-top: 80px;
+            height: 220px;
+          }
+          .m_t2 {
+            /* margin-top: 30px; */
+            height: 150px;
+          }
+          .m_t3 {
+            height: 100%;
+          }
+          .m_t0 {
+            margin-top: 0px;
+            height: 220px;
+          }</style><div class="mt_box"><div id="mt1" class="mt m_t1"></div><div class="mt m_t2"></div><div class="mt m_t3"></div></div><script>if (!window["shareitBridge"]) {
+            document.getElementById("__MASK_BOX__").style.display = 'none';
+          }
+          if (getUrlParam('isClientHome') === 'true') {;
+            document.getElementById('mt1').classList.add('m_t0');
+          }</script></div><div id="app"></div><script src="https://static.wshareit.com/libs/bundle_vue_axios.js"></script><script src="https://static.wshareit.com/libs/bundle_intersection_hybird.js"></script><script src="https://static.wshareit.com/libs/bundle_vue-router_vuex.js"></script><script src="https://static.wshareit.com/libs/vue-i18n.js"></script><script src="js/chunk-vendors.c2fad58e.js"></script><script src="js/index.6ab9cff1.js"></script></body></html>
